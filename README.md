@@ -63,7 +63,7 @@ A GAN is comprised of two adversarial networks, a discriminator and a generator.
       - Use ReLU activation in generator for all layers except for the output, which uses Tanh.
       - Use LeakyReLU activation in the discriminator for all layers.
 ## Discriminator Discriminator
-- Main Goal : input 32*32*3(RGB) tensor images output the value that determine the a given image is real or fake
+- Main Goal : input 32 * 32 * 3 (RGB) tensor images output the value that determine the a given image is real or fake
 - Define Helper Function that creates a convolutional layer, with optional batch normalization.
 
  ```python
